@@ -5,9 +5,7 @@ Team
 Student,Faculty,Director
 
 Objective (Purpose):
-
-The timesheet management system is intended to  store complete information
-about the users, their  work description and working hours. It will enable company to monitor their working hours and pay accordingly.
+Transflower can meet its deadlines, maintain its budget, and achieve success when it uses time effectively. To do this, Transflower need to be able to keep accurate records. Transflower use timesheets to record time spent on tasks, projects, or clients. Time entry involves employees entering the time they start and end work on a task or project on a timesheet.The timesheet management system is intended to  store complete information about the users, their  work description and working hours. It will enable company to monitor their working hours and pay accordingly.
 
 Scope
 
