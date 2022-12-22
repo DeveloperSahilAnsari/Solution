@@ -20,6 +20,10 @@ app.get('/arbaj',(req,resp)=>{
     app.get('/parth',(req,resp)=>{
         resp.send("this is parth")
         });
+
+         app.get('/dhruv',(req,resp)=>{
+        resp.send("this is Dhruv")
+        });
     
 
 app.listen(3000);
