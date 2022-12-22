@@ -6,7 +6,7 @@ var path=require("path");
 
 
 app.get('/',(req,resp)=>{
-    resp.send("welcome to my world");
+    resp.send("welcome to my sufiyan");
 
 
 });
@@ -21,6 +21,26 @@ app.get('/hello',(req,resp)=>{
 )
 
 
+app.get('/sahil',(req,resp)=>{
+resp.send("this is Sahil")
+});
+
+app.get('/arbaj',(req,resp)=>{
+    resp.send("this is arbaj shaikh website of express.js")
+    });
+
+    app.get('/parth',(req,resp)=>{
+        resp.send("this is parth")
+        });
+
+         app.get('/dhruv',(req,resp)=>{
+        resp.send("this is Dhruv")
+        });
+    
+        app.get('/shubham',(req,resp)=>{
+            resp.send("this is Shubham")
+            });
+        
 
 app.listen(3000);
 console.log("Server started at port no 3000");
