@@ -76,4 +76,11 @@ ER Diagrams: (Entity Relationship Diagrams)
 OOAD UML Diagrams
 
 
+------------------------------------------------------------------------------------------------------------------------
+Database:
+
+Create database Timesheet;
+create table Student(
+	);
+
 database.sql
