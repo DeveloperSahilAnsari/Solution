@@ -1,1 +1,86 @@
-this is sufiyan file
+
+
+Online Timesheet Management System
+
+Abstraction:
+
+	    Timesheet Management System for 
+		Admin, Faculty, Student
+
+
+
+Login system for different users.
+Entering/editing/delete data according to users.
+retriving data of a user and displaying it to seniors.
+hiding data from users of same hirarchy.
+
+
+Encapusulation:
+
+
+User will interact with login portal.
+Portal User interface will invoke respective login page.
+Web services hosted on Web Server will encapsulate Business Logic of timesheet management from website.
+Bussiness Logic will encapsulate core login , timesheet filling, aproving and rejecting from web service.
+Business logic will invoke business data from database in form of result sets after query processing by database.
+Database will perform DML, SQL , Stored Procedure Execution at Database server level and hide interal implementation.
+
+
+Polmorphsim & Inheritance:
+
+Business Objects will be defined using Class Hiearchy User, Admin, Faculty, Students.
+
+
+Modularity:
+
+
+	Authentication
+	Authorization
+	
+
+
+Concurrency:
+       all timesheet management Operations are under execution parallely for users with role faculty, students, admin.
+
+
+
+Persistence:
+	All business data will be stored  in Data Store for future work.
+	
+
+
+DFD :Data Flow Diagrams
+Process:   entering data in timesheet.
+external entity: user
+data Store: timesheet entry
+	   
+
+
+ER Diagrams: (Entity Relationship Diagrams)
+
+OOAD UML Diagrams
+
+
+database.sql
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
