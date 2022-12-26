@@ -1,7 +1,6 @@
-
-var login = require('./login');
+var timesheet = require('./controllers/timesheet')
 module.exports=function(app){
-
+   
     app.route('/login')
-        .get()
-}
+    .get(timesheet.login);
+};
